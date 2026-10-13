@@ -2,6 +2,7 @@
   "name": "qq-archive",
   "version": "0.1.0",
   "private": true,
+  "license": "PolyForm-Noncommercial-1.0.0",
   "description": "QQ 聊天记录防丢失与自动归档系统",
   "type": "module",
   "bin": {

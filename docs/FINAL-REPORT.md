@@ -244,7 +244,7 @@ WebUI token 写错本该回 401 `UNAUTHORIZED`（并提示改 `collector.napcat.
 
 **本项目的依赖**：生产依赖 **0 个**。开发依赖仅 `typescript` 与 `@types/node`。数据库用 Node 24 内置 `node:sqlite`，HTTP 服务用内置 `node:http`，测试用内置 `node:test`——**没有把任何第三方库引入供应链**。
 
-**本项目的许可**：源码位于用户自己的工作目录且非 Git 仓库，未做任何提交、推送或授权声明。若将来开源，建议在确认上述边界后自行选择许可证。
+**本项目的许可**：已选定 **[PolyForm Noncommercial License 1.0.0](../LICENSE)**（源码可见，非 OSI 认可的开放源代码许可）——任何**非商业**目的可自由使用、修改与分发，**商业使用须事先取得著作权人书面授权**。源码已发布为公开 Git 仓库 <https://github.com/emoeem/qq-archive>；`LICENSE`、`package.json` 的 `license` 字段与 README 的「许可证」章节三处口径一致。
 
 ---
 

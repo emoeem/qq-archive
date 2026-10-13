@@ -478,6 +478,8 @@ npm test            # node --test --experimental-strip-types "tests/**/*.test.ts
 | QQBackup/QQ-History-Backup | MIT | 未使用（需 root/Frida） |
 | SnowLuma/SnowLuma | **Source-Available 非商业许可 v1.0**（限制商业使用与修改版公开发布，且禁止在其之上另建项目） | **未使用任何代码**；仅阅读源码提取机制与思路（预编译语句缓存、媒体 URL 失效处理），由本项目独立实现 |
 
+**本项目的许可**：**[PolyForm Noncommercial License 1.0.0](../LICENSE)**（源码可见，非 OSI 认可的开放源代码许可）——任何**非商业**目的可自由使用、修改与分发；**商业使用须事先取得著作权人书面授权**。公开仓库：<https://github.com/emoeem/qq-archive>。
+
 ---
 
 ## 11. 复现步骤
