@@ -1,0 +1,90 @@
+{
+  "$comment": "QQ 归档系统配置示例。复制为 config.json 后修改。注意：config.json 含令牌，权限建议 chmod 600。所有字段都可用环境变量覆盖（见 docs/DEPLOYMENT.md）。",
+
+  "server": {
+    "$comment": "管理接口。默认只听 127.0.0.1；要远程访问请改 host 并设置足够强的 token。token 留空即可：首次运行会自动生成一个随机令牌并写回本文件，用 `qq-archive token` 查看。",
+    "host": "127.0.0.1",
+    "port": 8787,
+    "token": "",
+    "sessionTtlSec": 604800,
+    "allowDownload": true,
+    "exportMaxMessages": 200000,
+    "trustProxy": false
+  },
+
+  "storage": {
+    "$comment": "数据目录、数据库、媒体、备份、日志。相对路径以本配置文件所在目录为基准。数据库与媒体分开存放，便于单独备份与迁移。",
+    "dataDir": "./data",
+    "dbPath": "",
+    "mediaDir": "",
+    "backupDir": "",
+    "logDir": ""
+  },
+
+  "backup": {
+    "$comment": "自动备份。intervalHours=0 关闭定时备份。keep 为保留份数，超出后删除最旧的。",
+    "intervalHours": 24,
+    "keep": 7,
+    "verify": true
+  },
+
+  "alert": {
+    "$comment": "告警阈值。diskLowGb：磁盘剩余低于该 GB 数告警；collectFailureThreshold：采集连续失败次数阈值；webhookUrl 可选。",
+    "diskLowGb": 2,
+    "collectFailureThreshold": 3,
+    "webhookUrl": ""
+  },
+
+  "logs": {
+    "$comment": "数据库日志保留天数（只影响 logs 表与网页「日志」页；文件日志按体积自行轮转）。0 = 不清理。启动时执行一次清理。也可用环境变量 QQ_ARCHIVE_LOG_KEEP_DAYS 覆盖。",
+    "dbKeepDays": 30
+  },
+
+  "filters": {
+    "$comment": "采集过滤（默认关闭）。enabled=true 后按下面的规则**标记**消息：命中的消息照样入库、导出也照带，只是默认不在网页时间线/搜索里显示（勾选「包含已过滤消息」即可看到）。这是刻意的设计——本系统是防丢失工具，过滤只用来少看点，不该变成少存点。真的不想存（比如某类消息连库都不要），把 drop 设为 true，那时命中的消息会被跳过存储、只在采集统计里计数。规则之间是「或」：excludeKeywords 子串匹配（大小写不敏感）、excludeSenders 与 QQ 号/uid/昵称精确相等、excludeTypes 与消息类型精确相等（text/image/video/audio/file/forward/reply/system/json/other）。",
+    "enabled": false,
+    "excludeKeywords": [],
+    "excludeSenders": [],
+    "excludeTypes": [],
+    "drop": false
+  },
+
+  "collector": {
+    "$comment": "采集端。kind=onebot 时通过 OneBot v11 HTTP 接口读取 NapCat / LLOneBot 等实现的数据（只读，不发送任何消息）。kind=none 表示只做离线导入。",
+    "kind": "none",
+    "baseUrl": "http://127.0.0.1:3000",
+    "token": "",
+    "intervalSec": 60,
+    "lookbackSec": 300,
+    "initialBackfillDays": 3,
+    "pageSize": 200,
+    "maxPagesPerRound": 20,
+    "syncMedia": true,
+    "maxMediaBytes": 536870912,
+    "discoverSessions": true,
+    "sessions": [],
+    "forwardDepth": 3,
+    "forwardMaxNodes": 200,
+
+    "napcat": {
+      "$comment": "可选：QQ 扫码登录（`qq-archive login` 与网页「QQ 登录」页）通过 NapCat 的 WebUI HTTP 接口驱动。token 取自 NapCat 的 config/webui.json —— 注意它与上面的 OneBot access token 不是同一个。留空时登录功能显示为「未配置」，其余功能不受影响。probeRange 是端口自增探测范围（NapCat 端口被占用时会自增）。",
+      "webuiUrl": "http://127.0.0.1:6099",
+      "token": "",
+      "probeRange": 20
+    }
+  },
+
+  "stt": {
+    "$comment": "语音转文字（可选）。enabled=false 时完全关闭，不加载任何引擎；开启后 `qq-archive transcribe` 与后台媒体页的「转写」按钮才可用。model 指向 whisper.cpp 的 ggml 模型文件，必须用多语种模型，不要用 .en.bin（本机实测对中文几乎输出空）。vadModel 可选，填入 silero-vad 后 whisper-cli 会加 --vad 做静音切分。timeoutMs 是单条转写超时；maxDurationSec 超过则跳过（不写库）。",
+    "enabled": false,
+    "engine": "whisper-cli",
+    "binary": "whisper-cli",
+    "ffmpeg": "ffmpeg",
+    "model": "/usr/share/whisper.cpp-model-large-v3-turbo/ggml-large-v3-turbo.bin",
+    "language": "zh",
+    "vadModel": "/home/emo/.local/share/models/ggml-silero-v5.1.2.bin",
+    "threads": 4,
+    "timeoutMs": 600000,
+    "maxDurationSec": 600
+  }
+}

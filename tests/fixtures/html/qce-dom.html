@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>测试群 · 聊天记录</title>
+  <!-- QCE viewer 风格：消息渲染成 DOM，靠 data-* 属性携带结构化字段 -->
+</head>
+<body>
+  <div class="chat" data-chat-name="测试群" data-chat-type="group" data-peer-uin="123456" data-member-count="42">
+    <div class="message-item" data-message-id="2001" data-timestamp="1700000000000" data-sender-name="张三" data-sender-uin="11111">
+      <div class="sender">张三</div>
+      <div class="content">晚上好</div>
+    </div>
+    <div class="message-item self" data-message-id="2002" data-timestamp="1700000060000" data-sender-name="我" data-sender-uin="99999">
+      <div class="sender">我</div>
+      <div class="content">晚上好<br>今晚一起吃饭吗？</div>
+    </div>
+    <div class="message-item system-tip" data-message-id="2003" data-timestamp="1700000120000">
+      <div class="content">张三撤回了一条消息</div>
+    </div>
+  </div>
+</body>
+</html>

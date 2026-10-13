@@ -1,0 +1,49 @@
+[Unit]
+Description=QQ 归档采集端（从 NapCat / OneBot 只读采集消息）
+Documentation=file:///opt/qq-archive/docs/DEPLOYMENT.md
+After=network-online.target qq-archive.service
+Wants=network-online.target qq-archive.service
+# 反复崩溃时不要无限重启。StartLimit* 属于 [Unit] 段；采集端是 Restart=always，
+# 没有这两行时配置错误会导致每 10 秒重启一次、永远不停。
+StartLimitIntervalSec=300
+StartLimitBurst=5
+# NapCat / LLOneBot 的 OneBot HTTP 服务需要先就绪（端口按实际修改）
+# After=napcat.service
+
+[Service]
+Type=simple
+User=qqarchive
+Group=qqarchive
+WorkingDirectory=/opt/qq-archive
+Environment=QQ_ARCHIVE_CONFIG=/etc/qq-archive/config.json
+Environment=NODE_ENV=production
+# 采集端与本机 OneBot 服务通信；如需远程采集端，改 QQ_ARCHIVE_COLLECTOR_URL
+ExecStart=/usr/bin/node --experimental-strip-types /opt/qq-archive/apps/cli/src/main.ts collect
+Restart=always
+RestartSec=10
+KillSignal=SIGTERM
+TimeoutStopSec=20
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/qq-archive /var/backups/qq-archive
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+
+LimitNOFILE=65536
+MemoryMax=1G
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=qq-archive-collect
+
+[Install]
+WantedBy=multi-user.target

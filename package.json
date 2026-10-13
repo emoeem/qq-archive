@@ -1,0 +1,24 @@
+{
+  "name": "qq-archive",
+  "version": "0.1.0",
+  "private": true,
+  "description": "QQ 聊天记录防丢失与自动归档系统",
+  "type": "module",
+  "bin": {
+    "qq-archive": "bin/qq-archive.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test --experimental-strip-types \"tests/**/*.test.ts\"",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --experimental-strip-types apps/cli/src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

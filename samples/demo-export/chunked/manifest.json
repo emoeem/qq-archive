@@ -1,0 +1,16 @@
+{
+  "version": "6.3.2",
+  "chatInfo": {
+    "name": "测试技术交流群",
+    "type": "group",
+    "peerUid": "700001",
+    "selfUid": "u_self_0001",
+    "selfName": "我"
+  },
+  "totalMessages": 247,
+  "chunks": [
+    "chunk-000.jsonl",
+    "chunk-001.jsonl"
+  ],
+  "chunkFormat": "jsonl"
+}

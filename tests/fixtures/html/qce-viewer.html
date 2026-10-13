@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>测试群 · 聊天记录</title>
+  <!-- QCE viewer 风格：整包数据内嵌为 JSON 载荷，DOM 里不重复渲染消息 -->
+  <script id="qce-data" type="application/json">
+  {
+    "chatInfo": {
+      "name": "测试群",
+      "type": "group",
+      "peerUin": "123456",
+      "participantCount": 42
+    },
+    "messages": [
+      {
+        "id": "1001",
+        "timestamp": 1700000000000,
+        "sender": { "uin": "11111", "nickname": "张三" },
+        "content": { "text": "第一条消息" },
+        "type": "type_1"
+      },
+      {
+        "id": "1002",
+        "timestamp": 1700000060000,
+        "sender": { "uin": "22222", "nickname": "李四" },
+        "content": {
+          "text": "你好，世界",
+          "elements": [
+            { "type": "image", "data": { "filename": "pic.jpg", "url": "resources/pic.jpg" } }
+          ]
+        },
+        "type": "type_1"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>

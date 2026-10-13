@@ -1,0 +1,57 @@
+[Unit]
+Description=QQ 聊天记录归档系统（归档服务器：数据库 + API + 网页）
+Documentation=file:///opt/qq-archive/docs/DEPLOYMENT.md
+After=network-online.target
+Wants=network-online.target
+# 反复崩溃时不要无限重启。StartLimit* 属于 [Unit] 段，写在 [Service] 里会被 systemd
+# 当作未知键忽略（`systemd-analyze verify` 只给 warning，不报错，所以很容易漏掉）。
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=qqarchive
+Group=qqarchive
+WorkingDirectory=/opt/qq-archive
+# 配置文件独立存放，权限 600，属主 qqarchive
+Environment=QQ_ARCHIVE_CONFIG=/etc/qq-archive/config.json
+Environment=NODE_ENV=production
+# 采集令牌等敏感信息建议放这里而不是 config.json：
+# EnvironmentFile=-/etc/qq-archive/secrets.env
+ExecStart=/usr/bin/node --experimental-strip-types /opt/qq-archive/apps/cli/src/main.ts serve
+Restart=on-failure
+RestartSec=5
+# 优雅停止：SIGTERM 后等待 30 秒
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# ---- 安全加固 ----
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+# 只有数据目录可写
+ReadWritePaths=/var/lib/qq-archive /var/backups/qq-archive
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictNamespaces=true
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryDenyWriteExecute=false
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+
+# ---- 资源限制 ----
+LimitNOFILE=65536
+# 导入大文件时内存可能上升，按机器调整
+MemoryMax=2G
+
+# ---- 日志 ----
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=qq-archive
+
+[Install]
+WantedBy=multi-user.target

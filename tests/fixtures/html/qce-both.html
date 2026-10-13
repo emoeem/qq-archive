@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>双份来源的导出</title>
+  <!-- 同时携带内嵌 JSON 载荷与 DOM 渲染：JSON 优先，DOM 不应被重复导入 -->
+  <script id="qce-data" type="application/json">
+  {
+    "chatInfo": { "name": "双份群", "type": "group", "peerUin": "654321" },
+    "messages": [
+      {
+        "id": "3001",
+        "timestamp": 1700001000000,
+        "sender": { "uin": "11111", "nickname": "张三" },
+        "content": { "text": "JSON 里的第一条" },
+        "type": "type_1"
+      },
+      {
+        "id": "3002",
+        "timestamp": 1700001060000,
+        "sender": { "uin": "22222", "nickname": "李四" },
+        "content": { "text": "JSON 里的第二条" },
+        "type": "type_1"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="chat" data-chat-name="双份群" data-chat-type="group" data-peer-uin="654321">
+    <div class="message-item" data-message-id="3001" data-timestamp="1700001000000" data-sender-name="张三" data-sender-uin="11111">
+      <div class="sender">张三</div>
+      <div class="content">DOM 里的第一条</div>
+    </div>
+    <div class="message-item" data-message-id="3002" data-timestamp="1700001060000" data-sender-name="李四" data-sender-uin="22222">
+      <div class="sender">李四</div>
+      <div class="content">DOM 里的第二条</div>
+    </div>
+  </div>
+</body>
+</html>

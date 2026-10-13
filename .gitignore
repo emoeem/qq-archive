@@ -1,0 +1,30 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 日志与运行期文件
+*.log
+*.db
+*.db-wal
+*.db-shm
+
+# 本地真实数据（聊天库、媒体、备份）——绝不入库
+data/
+backups/
+data/login-qr.png
+
+# 本地真实配置（含访问令牌与 NapCat WebUI 密钥）
+# 仓库里只保留 config.example.json（令牌全部留空）
+config.json
+
+# 环境变量
+.env
+
+# 本地工作记录（含本机绝对路径与内部笔记）
+.workbuddy/
+
+# 系统文件
+.DS_Store
+
+# 测试运行时生成的夹具（由 tests/fixtures/generate.ts 按固定种子重建）
+tests/.fixtures/

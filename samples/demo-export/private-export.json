@@ -1,0 +1,1934 @@
+{
+  "metadata": {
+    "exportTime": "2026-10-13 21:02:44",
+    "version": "6.3.2",
+    "generator": "qq-chat-exporter",
+    "format": "JSON"
+  },
+  "chatInfo": {
+    "name": "小王",
+    "type": "private",
+    "selfUid": "u_self_0001",
+    "selfUin": "10001",
+    "selfName": "我",
+    "peerUid": "u_friend_0002",
+    "peerUin": "10002"
+  },
+  "statistics": {
+    "messageCount": 120
+  },
+  "messages": [
+    {
+      "id": "pvt-000000",
+      "seq": "5000",
+      "timestamp": 1764552749850,
+      "time": "2025-12-01 09:32:29",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000001",
+      "seq": "5001",
+      "timestamp": 1764553039029,
+      "time": "2025-12-01 09:37:19",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000002",
+      "seq": "5002",
+      "timestamp": 1764553306335,
+      "time": "2025-12-01 09:41:46",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000003",
+      "seq": "5003",
+      "timestamp": 1764553787611,
+      "time": "2025-12-01 09:49:47",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000004",
+      "seq": "5004",
+      "timestamp": 1764555167437,
+      "time": "2025-12-01 10:12:47",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000005",
+      "seq": "5005",
+      "timestamp": 1764556256708,
+      "time": "2025-12-01 10:30:56",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "私聊里也提到了蓝鲸计划ZZQ这个词"
+      }
+    },
+    {
+      "id": "pvt-000006",
+      "seq": "5006",
+      "timestamp": 1764557361624,
+      "time": "2025-12-01 10:49:21",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000007",
+      "seq": "5007",
+      "timestamp": 1764559147609,
+      "time": "2025-12-01 11:19:07",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000008",
+      "seq": "5008",
+      "timestamp": 1764559201005,
+      "time": "2025-12-01 11:20:01",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000009",
+      "seq": "5009",
+      "timestamp": 1764559960077,
+      "time": "2025-12-01 11:32:40",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000010",
+      "seq": "5010",
+      "timestamp": 1764561693197,
+      "time": "2025-12-01 12:01:33",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000011",
+      "seq": "5011",
+      "timestamp": 1764562632233,
+      "time": "2025-12-01 12:17:12",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000012",
+      "seq": "5012",
+      "timestamp": 1764563129617,
+      "time": "2025-12-01 12:25:29",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000013",
+      "seq": "5013",
+      "timestamp": 1764564003037,
+      "time": "2025-12-01 12:40:03",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000014",
+      "seq": "5014",
+      "timestamp": 1764564394945,
+      "time": "2025-12-01 12:46:34",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000015",
+      "seq": "5015",
+      "timestamp": 1764565648443,
+      "time": "2025-12-01 13:07:28",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000016",
+      "seq": "5016",
+      "timestamp": 1764567310297,
+      "time": "2025-12-01 13:35:10",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000017",
+      "seq": "5017",
+      "timestamp": 1764567891754,
+      "time": "2025-12-01 13:44:51",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000018",
+      "seq": "5018",
+      "timestamp": 1764568456828,
+      "time": "2025-12-01 13:54:16",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000019",
+      "seq": "5019",
+      "timestamp": 1764569347468,
+      "time": "2025-12-01 14:09:07",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000020",
+      "seq": "5020",
+      "timestamp": 1764570376604,
+      "time": "2025-12-01 14:26:16",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000021",
+      "seq": "5021",
+      "timestamp": 1764571959141,
+      "time": "2025-12-01 14:52:39",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000022",
+      "seq": "5022",
+      "timestamp": 1764573611037,
+      "time": "2025-12-01 15:20:11",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000023",
+      "seq": "5023",
+      "timestamp": 1764575201987,
+      "time": "2025-12-01 15:46:41",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000024",
+      "seq": "5024",
+      "timestamp": 1764575626467,
+      "time": "2025-12-01 15:53:46",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000025",
+      "seq": "5025",
+      "timestamp": 1764577020037,
+      "time": "2025-12-01 16:17:00",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000026",
+      "seq": "5026",
+      "timestamp": 1764577091835,
+      "time": "2025-12-01 16:18:11",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000027",
+      "seq": "5027",
+      "timestamp": 1764578324773,
+      "time": "2025-12-01 16:38:44",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000028",
+      "seq": "5028",
+      "timestamp": 1764579466986,
+      "time": "2025-12-01 16:57:46",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000029",
+      "seq": "5029",
+      "timestamp": 1764580253954,
+      "time": "2025-12-01 17:10:53",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "今天天气不错，出去走走"
+      }
+    },
+    {
+      "id": "pvt-000030",
+      "seq": "5030",
+      "timestamp": 1764581363335,
+      "time": "2025-12-01 17:29:23",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000031",
+      "seq": "5031",
+      "timestamp": 1764581527815,
+      "time": "2025-12-01 17:32:07",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000032",
+      "seq": "5032",
+      "timestamp": 1764582147822,
+      "time": "2025-12-01 17:42:27",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000033",
+      "seq": "5033",
+      "timestamp": 1764582805654,
+      "time": "2025-12-01 17:53:25",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000034",
+      "seq": "5034",
+      "timestamp": 1764583689075,
+      "time": "2025-12-01 18:08:09",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000035",
+      "seq": "5035",
+      "timestamp": 1764583852930,
+      "time": "2025-12-01 18:10:52",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000036",
+      "seq": "5036",
+      "timestamp": 1764584285916,
+      "time": "2025-12-01 18:18:05",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000037",
+      "seq": "5037",
+      "timestamp": 1764585371452,
+      "time": "2025-12-01 18:36:11",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000038",
+      "seq": "5038",
+      "timestamp": 1764586661987,
+      "time": "2025-12-01 18:57:41",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "今天天气不错，出去走走"
+      }
+    },
+    {
+      "id": "pvt-000039",
+      "seq": "5039",
+      "timestamp": 1764587104654,
+      "time": "2025-12-01 19:05:04",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000040",
+      "seq": "5040",
+      "timestamp": 1764588038286,
+      "time": "2025-12-01 19:20:38",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "文件已经发你邮箱了"
+      }
+    },
+    {
+      "id": "pvt-000041",
+      "seq": "5041",
+      "timestamp": 1764588122475,
+      "time": "2025-12-01 19:22:02",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000042",
+      "seq": "5042",
+      "timestamp": 1764588402780,
+      "time": "2025-12-01 19:26:42",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000043",
+      "seq": "5043",
+      "timestamp": 1764588766701,
+      "time": "2025-12-01 19:32:46",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000044",
+      "seq": "5044",
+      "timestamp": 1764589515998,
+      "time": "2025-12-01 19:45:15",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000045",
+      "seq": "5045",
+      "timestamp": 1764591148505,
+      "time": "2025-12-01 20:12:28",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000046",
+      "seq": "5046",
+      "timestamp": 1764592792094,
+      "time": "2025-12-01 20:39:52",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000047",
+      "seq": "5047",
+      "timestamp": 1764593017966,
+      "time": "2025-12-01 20:43:37",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000048",
+      "seq": "5048",
+      "timestamp": 1764593283113,
+      "time": "2025-12-01 20:48:03",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000049",
+      "seq": "5049",
+      "timestamp": 1764595103886,
+      "time": "2025-12-01 21:18:23",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000050",
+      "seq": "5050",
+      "timestamp": 1764595931472,
+      "time": "2025-12-01 21:32:11",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000051",
+      "seq": "5051",
+      "timestamp": 1764596774914,
+      "time": "2025-12-01 21:46:14",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000052",
+      "seq": "5052",
+      "timestamp": 1764598386116,
+      "time": "2025-12-01 22:13:06",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000053",
+      "seq": "5053",
+      "timestamp": 1764598628250,
+      "time": "2025-12-01 22:17:08",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000054",
+      "seq": "5054",
+      "timestamp": 1764599508422,
+      "time": "2025-12-01 22:31:48",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000055",
+      "seq": "5055",
+      "timestamp": 1764600360049,
+      "time": "2025-12-01 22:46:00",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000056",
+      "seq": "5056",
+      "timestamp": 1764601449895,
+      "time": "2025-12-01 23:04:09",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000057",
+      "seq": "5057",
+      "timestamp": 1764602346020,
+      "time": "2025-12-01 23:19:06",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "文件已经发你邮箱了"
+      }
+    },
+    {
+      "id": "pvt-000058",
+      "seq": "5058",
+      "timestamp": 1764603301427,
+      "time": "2025-12-01 23:35:01",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000059",
+      "seq": "5059",
+      "timestamp": 1764604981120,
+      "time": "2025-12-02 00:03:01",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000060",
+      "seq": "5060",
+      "timestamp": 1764606657788,
+      "time": "2025-12-02 00:30:57",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000061",
+      "seq": "5061",
+      "timestamp": 1764607372159,
+      "time": "2025-12-02 00:42:52",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000062",
+      "seq": "5062",
+      "timestamp": 1764608081682,
+      "time": "2025-12-02 00:54:41",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000063",
+      "seq": "5063",
+      "timestamp": 1764608640998,
+      "time": "2025-12-02 01:04:00",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000064",
+      "seq": "5064",
+      "timestamp": 1764609079094,
+      "time": "2025-12-02 01:11:19",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000065",
+      "seq": "5065",
+      "timestamp": 1764609747011,
+      "time": "2025-12-02 01:22:27",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000066",
+      "seq": "5066",
+      "timestamp": 1764609901074,
+      "time": "2025-12-02 01:25:01",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000067",
+      "seq": "5067",
+      "timestamp": 1764610700485,
+      "time": "2025-12-02 01:38:20",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000068",
+      "seq": "5068",
+      "timestamp": 1764611811748,
+      "time": "2025-12-02 01:56:51",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000069",
+      "seq": "5069",
+      "timestamp": 1764612074034,
+      "time": "2025-12-02 02:01:14",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000070",
+      "seq": "5070",
+      "timestamp": 1764612967214,
+      "time": "2025-12-02 02:16:07",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000071",
+      "seq": "5071",
+      "timestamp": 1764614056618,
+      "time": "2025-12-02 02:34:16",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000072",
+      "seq": "5072",
+      "timestamp": 1764614574343,
+      "time": "2025-12-02 02:42:54",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000073",
+      "seq": "5073",
+      "timestamp": 1764614900007,
+      "time": "2025-12-02 02:48:20",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000074",
+      "seq": "5074",
+      "timestamp": 1764616230388,
+      "time": "2025-12-02 03:10:30",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "文件已经发你邮箱了"
+      }
+    },
+    {
+      "id": "pvt-000075",
+      "seq": "5075",
+      "timestamp": 1764617634306,
+      "time": "2025-12-02 03:33:54",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000076",
+      "seq": "5076",
+      "timestamp": 1764619401454,
+      "time": "2025-12-02 04:03:21",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "文件已经发你邮箱了"
+      }
+    },
+    {
+      "id": "pvt-000077",
+      "seq": "5077",
+      "timestamp": 1764620618119,
+      "time": "2025-12-02 04:23:38",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000078",
+      "seq": "5078",
+      "timestamp": 1764621274955,
+      "time": "2025-12-02 04:34:34",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000079",
+      "seq": "5079",
+      "timestamp": 1764622687896,
+      "time": "2025-12-02 04:58:07",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000080",
+      "seq": "5080",
+      "timestamp": 1764624206793,
+      "time": "2025-12-02 05:23:26",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000081",
+      "seq": "5081",
+      "timestamp": 1764625176670,
+      "time": "2025-12-02 05:39:36",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000082",
+      "seq": "5082",
+      "timestamp": 1764626348904,
+      "time": "2025-12-02 05:59:08",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000083",
+      "seq": "5083",
+      "timestamp": 1764627404161,
+      "time": "2025-12-02 06:16:44",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000084",
+      "seq": "5084",
+      "timestamp": 1764628739794,
+      "time": "2025-12-02 06:38:59",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000085",
+      "seq": "5085",
+      "timestamp": 1764630448192,
+      "time": "2025-12-02 07:07:28",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000086",
+      "seq": "5086",
+      "timestamp": 1764631704947,
+      "time": "2025-12-02 07:28:24",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000087",
+      "seq": "5087",
+      "timestamp": 1764632738804,
+      "time": "2025-12-02 07:45:38",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000088",
+      "seq": "5088",
+      "timestamp": 1764634100855,
+      "time": "2025-12-02 08:08:20",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000089",
+      "seq": "5089",
+      "timestamp": 1764635339690,
+      "time": "2025-12-02 08:28:59",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "刚看到消息，抱歉"
+      }
+    },
+    {
+      "id": "pvt-000090",
+      "seq": "5090",
+      "timestamp": 1764635970819,
+      "time": "2025-12-02 08:39:30",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000091",
+      "seq": "5091",
+      "timestamp": 1764636302117,
+      "time": "2025-12-02 08:45:02",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000092",
+      "seq": "5092",
+      "timestamp": 1764637139648,
+      "time": "2025-12-02 08:58:59",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000093",
+      "seq": "5093",
+      "timestamp": 1764638199478,
+      "time": "2025-12-02 09:16:39",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000094",
+      "seq": "5094",
+      "timestamp": 1764638311587,
+      "time": "2025-12-02 09:18:31",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000095",
+      "seq": "5095",
+      "timestamp": 1764639166668,
+      "time": "2025-12-02 09:32:46",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000096",
+      "seq": "5096",
+      "timestamp": 1764640173271,
+      "time": "2025-12-02 09:49:33",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000097",
+      "seq": "5097",
+      "timestamp": 1764641585053,
+      "time": "2025-12-02 10:13:05",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "文件已经发你邮箱了"
+      }
+    },
+    {
+      "id": "pvt-000098",
+      "seq": "5098",
+      "timestamp": 1764643159461,
+      "time": "2025-12-02 10:39:19",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "好的没问题"
+      }
+    },
+    {
+      "id": "pvt-000099",
+      "seq": "5099",
+      "timestamp": 1764644553852,
+      "time": "2025-12-02 11:02:33",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "今天天气不错，出去走走"
+      }
+    },
+    {
+      "id": "pvt-000100",
+      "seq": "5100",
+      "timestamp": 1764646218183,
+      "time": "2025-12-02 11:30:18",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000101",
+      "seq": "5101",
+      "timestamp": 1764647971117,
+      "time": "2025-12-02 11:59:31",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000102",
+      "seq": "5102",
+      "timestamp": 1764648138422,
+      "time": "2025-12-02 12:02:18",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000103",
+      "seq": "5103",
+      "timestamp": 1764648877213,
+      "time": "2025-12-02 12:14:37",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000104",
+      "seq": "5104",
+      "timestamp": 1764649213240,
+      "time": "2025-12-02 12:20:13",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000105",
+      "seq": "5105",
+      "timestamp": 1764650908474,
+      "time": "2025-12-02 12:48:28",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000106",
+      "seq": "5106",
+      "timestamp": 1764651865445,
+      "time": "2025-12-02 13:04:25",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000107",
+      "seq": "5107",
+      "timestamp": 1764652133622,
+      "time": "2025-12-02 13:08:53",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "我这边网络有点问题"
+      }
+    },
+    {
+      "id": "pvt-000108",
+      "seq": "5108",
+      "timestamp": 1764653884010,
+      "time": "2025-12-02 13:38:04",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000109",
+      "seq": "5109",
+      "timestamp": 1764654790510,
+      "time": "2025-12-02 13:53:10",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "晚点再说，我现在在开会"
+      }
+    },
+    {
+      "id": "pvt-000110",
+      "seq": "5110",
+      "timestamp": 1764655208578,
+      "time": "2025-12-02 14:00:08",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "今天天气不错，出去走走"
+      }
+    },
+    {
+      "id": "pvt-000111",
+      "seq": "5111",
+      "timestamp": 1764655885992,
+      "time": "2025-12-02 14:11:25",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000112",
+      "seq": "5112",
+      "timestamp": 1764656401862,
+      "time": "2025-12-02 14:20:01",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    },
+    {
+      "id": "pvt-000113",
+      "seq": "5113",
+      "timestamp": 1764656613461,
+      "time": "2025-12-02 14:23:33",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "这个方案我看过了，基本同意"
+      }
+    },
+    {
+      "id": "pvt-000114",
+      "seq": "5114",
+      "timestamp": 1764658240036,
+      "time": "2025-12-02 14:50:40",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "今天天气不错，出去走走"
+      }
+    },
+    {
+      "id": "pvt-000115",
+      "seq": "5115",
+      "timestamp": 1764658818713,
+      "time": "2025-12-02 15:00:18",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "哈哈哈这个太有意思了"
+      }
+    },
+    {
+      "id": "pvt-000116",
+      "seq": "5116",
+      "timestamp": 1764660133302,
+      "time": "2025-12-02 15:22:13",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "收到，谢谢"
+      }
+    },
+    {
+      "id": "pvt-000117",
+      "seq": "5117",
+      "timestamp": 1764660440319,
+      "time": "2025-12-02 15:27:20",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "明天几点集合？"
+      }
+    },
+    {
+      "id": "pvt-000118",
+      "seq": "5118",
+      "timestamp": 1764661157834,
+      "time": "2025-12-02 15:39:17",
+      "sender": {
+        "uid": "u_friend_0002",
+        "uin": "10002",
+        "name": "小王",
+        "nickname": "小王",
+        "remark": "同事小王"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "稍等我确认一下"
+      }
+    },
+    {
+      "id": "pvt-000119",
+      "seq": "5119",
+      "timestamp": 1764662955450,
+      "time": "2025-12-02 16:09:15",
+      "sender": {
+        "uid": "u_self_0001",
+        "uin": "10001",
+        "name": "我"
+      },
+      "type": "type_1",
+      "content": {
+        "text": "周末有空一起吃饭吗"
+      }
+    }
+  ]
+}
